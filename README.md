@@ -4,20 +4,19 @@
 Predicting house prices based on various housing features using regression models, ensemble learning techniques, and meta-modeling strategies. This project was developed in two phases during the final year of B.Tech in AI & ML and aims to help beginners learn end-to-end machine learning workflows with real-world data.
 
 ## 📌 Table of Contents
-- [About the Project](#about-the-project)
-- [Project Phases](#project-phases)
-- [Tech Stack](#tech-stack)
-- [Features Used](#features-used)
-- [Modeling Workflow](#modeling-workflow)
-- [Results](#results)
-- [How to Run](#how-to-run)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [About the Project](https://github.com/yashwantpandey/House-Price-Prediction#-about-the-project)
+- [Project Phases](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-project-phases)
+- [Tech Stack](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#%EF%B8%8F-tech-stack)
+- [Features Used](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-features-used)
+- [Modeling Workflow](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-modeling-workflow)
+- [Results](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-results)
+- [How to Run](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#%EF%B8%8F-how-to-run)
+- [Folder Structure](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-folder-structure)
+- [Contributing](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-contributing)
+- [Contact](https://github.com/yashwantpandey/House-Price-Prediction?tab=readme-ov-file#-contact)
 
 ## 📖 About the Project
-This project predicts median house prices in Boston based on various features such as the number of rooms, crime rate, and distance to employment centers. It uses multiple regression models including **Random Forest**, **Gradient Boosting**, and **XGBoost**, and combines them using **stacking ensemble techniques** with meta-models like Ridge and Extra Trees Regressor.
+This project predicts median house prices in Boston based on various features such as the number of rooms, crime rate, and distance to employment centers. It uses multiple regression models including **Random Forest**, **Gradient Boosting**, and **XGBoost**, and combines them using **Stacking Ensemble Techniques** with meta-models like Ridge and Extra Trees Regressor. Also, combines them using **Weighted Ensemble Learning Techniques**.
 
 ## 🧠 Project Phases
 
@@ -27,13 +26,13 @@ This project predicts median house prices in Boston based on various features su
 
 ### 🔹 Phase 2: Ensemble & Optimization
 - Built stacking models with different meta-models.
-- Applied cross-validation and hyperparameter tuning.
+- Also, built models by combining different algorithms using Weighted Ensemble Learning.
 - Compared results against base papers to validate improvements.
 
 ## ⚙️ Tech Stack
 - **Programming Language:** Python
 - **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, XGBoost, LightGBM
-- **Techniques:** Regression, Ensemble Learning (Stacking), Cross-validation, GridSearchCV
+- **Techniques:** Regression, Ensemble Learning (Stacking & Weighted Ensemble Learning)
 - **Model Evaluation:** MAE, RMSE, R² Score
 
 ## 🧾 Features Used
@@ -64,12 +63,13 @@ This project predicts median house prices in Boston based on various features su
 3. **Modeling**
    - Train/test split (80/20)
    - Individual models trained and tuned
-   - Ensemble learning via stacking
+   - Ensemble learning via stacking 
    - Meta-model: Ridge, LGBM, Extra Trees, SVR
+   - Also, With Weighted Ensemble Learning
 
 4. **Evaluation**
    - Used MAE, MSE, RMSE, and R² for comparison
-   - Stacking with Ridge meta-model achieved highest R²: **0.927**
+   - Stacking with Ridge meta-model (RF + GBR) achieved highest R²: **0.927**
 
 ## ✅ Results
 
@@ -79,13 +79,13 @@ This project predicts median house prices in Boston based on various features su
 | Gradient Boosting       | 1.84  | 2.46  | 0.8761 |
 | XGBoost                 | 1.90  | 2.55  | 0.8664 |
 | Extra Trees             | 1.76  | 2.52  | 0.8693 |
-| **Stacking (Ridge Meta)** | 1.62  | 2.24  | 0.9270 |
+| **Stacking (Ridge Meta) - Ensemble method (RF + GBR)** | 1.62  | 2.24  | 0.9270 |
 
 ## ▶️ How to Run
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/house-price-prediction-ml.git
+git clone https://github.com/yashwantpandey/House-Price-Prediction
 cd house-price-prediction-ml
 ```
 
@@ -122,19 +122,10 @@ Beginner-friendly contributions are welcome!
 4. Push to the branch (`git push origin feature-name`)  
 5. Open a Pull Request  
 
-## 📄 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 📬 Contact
 
 **Project Contributors:**  
 - Yashwant Pandey | Prateek Mudaliar | Utkarsh Gupta | Ethiya Firdouse – Final Year B.Tech, AI & ML  
-- [LinkedIn](https://linkedin.com/in/yashwantpandey)
-- [LinkedIn](https://linkedin.com/in/prateek-mudaliar-176741245)
-- [LinkedIn](https://linkedin.com/in/utkarshgupta2502)
-- [LinkedIn](https://linkedin.com/in/ethiya-firdouse-36577b245)
-- [GitHub](https://github.com/yashwantpandey)
-- [GitHub](https://github.com/prateekMudaliar)
-- [GitHub](https://github.com/prateekMudaliar)
-- [GitHub](https://github.com/prateekMudaliar)
+- [LinkedIn - Yashwant](https://linkedin.com/in/yashwantpandey) | [LinkedIn - Prateek](https://linkedin.com/in/prateek-mudaliar-176741245) | [LinkedIn - Utkarsh](https://linkedin.com/in/utkarshgupta2502) | [LinkedIn - Ethiya](https://linkedin.com/in/ethiya-firdouse-36577b245)
+- [GitHub - Yashwant](https://github.com/yashwantpandey) | [GitHub - Prateek](https://github.com/prateekMudaliar) | [GitHub - Utkarsh](https://github.com/) | [GitHub - Ethiya](https://github.com/)
