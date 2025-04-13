@@ -129,6 +129,12 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## 📬 Contact
 
 **Project Contributors:**  
-- Your Name – Final Year B.Tech, AI & ML  
-- [LinkedIn](https://linkedin.com/in/yourprofile)  
-- [GitHub](https://github.com/yourusername)
+- Yashwant Pandey | Prateek Mudaliar | Utkarsh Gupta | Ethiya Firdouse – Final Year B.Tech, AI & ML  
+- [LinkedIn](https://linkedin.com/in/yashwantpandey)
+- [LinkedIn](https://linkedin.com/in/prateek-mudaliar-176741245)
+- [LinkedIn](https://linkedin.com/in/utkarshgupta2502)
+- [LinkedIn](https://linkedin.com/in/ethiya-firdouse-36577b245)
+- [GitHub](https://github.com/yashwantpandey)
+- [GitHub](https://github.com/prateekMudaliar)
+- [GitHub](https://github.com/prateekMudaliar)
+- [GitHub](https://github.com/prateekMudaliar)
