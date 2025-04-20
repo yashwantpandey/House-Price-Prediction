@@ -99,19 +99,6 @@ pip install -r requirements.txt
 jupyter notebook House_Price_Prediction.ipynb
 ```
 
-## 📁 Folder Structure
-
-```
-house-price-prediction-ml/
-├── data/                 # Dataset files (CSV)
-├── notebooks/            # Jupyter Notebooks for both phases
-├── models/               # Model files and saved outputs
-├── results/              # Result tables and evaluation metrics
-├── plots/                # EDA and visualization plots
-├── README.md             # Project overview
-└── requirements.txt      # Required libraries
-```
-
 ## 🤝 Contributing
 
 Beginner-friendly contributions are welcome!
